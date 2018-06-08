@@ -145,7 +145,6 @@ def postSlack(a):
         'text': s,
         'icon_emoji': e
     }
-    print(j)
     requests.post(u, json.dumps(j))
     return
 
